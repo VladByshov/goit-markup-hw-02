@@ -1,6 +1,20 @@
 body {
     font-family:"Roboto", "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color:#434455;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
 }
 
 header{
@@ -10,12 +24,12 @@ header{
 header a:not(.logo):hover,
 header a:not(.logo):focus {
     opacity: 0.8;
-    color: #31d0aa;
+    color: #4D5AE5;
     transition: color 0.2s;
 }
 
 header a:not(.logo):active{
-    color: #e7e9fc;
+    color: #4D5AE5;
 }
 
 .logo {
@@ -36,8 +50,6 @@ header a:not(.logo):active{
 .nav-list{
     list-style: none;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -49,7 +61,6 @@ header a:not(.logo):active{
 .contacts-header{
     list-style: none;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .contacts-header a{
@@ -98,6 +109,11 @@ header a:not(.logo):active{
     color: #FFFFFF;
 }
 
+.order:hover,
+.order:focus {
+    background-color: #404BBF;
+}
+
 .benefits-title{
     font-weight: 700;
     font-size: 36px;
@@ -122,5 +138,9 @@ header a:not(.logo):active{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.studio {
+    background-color: #f4f4fd;
 }
 
