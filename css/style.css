@@ -139,4 +139,14 @@ header a:not(.logo):active{
     text-align: center;
 }
 
+#footer {
+    background-color:  #2e2f42;
+}
 
+#footer p{
+    color: #f4f4fd;
+}
+
+#footer .logo span:nth-child(2){
+    color: #f4f4fd;
+}
