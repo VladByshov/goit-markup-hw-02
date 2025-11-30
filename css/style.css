@@ -10,11 +10,17 @@ body {
 h2 {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.1111;
+    color: #2e2f42;
+    text-align: center;
 }
 
 h3 {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    text-align: center;
 }
 
 header{
@@ -50,7 +56,6 @@ header a:not(.logo):active{
 .nav-list{
     list-style: none;
     font-weight: 500;
-    letter-spacing: 0.02em;
 }
 
 .nav-list a {
@@ -61,11 +66,10 @@ header a:not(.logo):active{
 .contacts-header{
     list-style: none;
     font-size: 16px;
-    letter-spacing: 0.02em;
 }
 .contacts-header a{
     text-decoration: none;
-    color: #434455;
+    color: inherit;
 }
 
 .solutions-for-business{
@@ -76,7 +80,6 @@ header a:not(.logo):active{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
-    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -115,32 +118,19 @@ header a:not(.logo):active{
 }
 
 .benefits-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
-}
-.benefits .benefits-list {
-    list-style: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
 }
 
-.benefits p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.benefits .benefits-list {
+    list-style: none;
 }
 
 .studio {
     background-color: #f4f4fd;
+}
+
+.our-team-list{
+    list-style: none;
+    text-align: center;
 }
 
