@@ -134,3 +134,9 @@ header a:not(.logo):active{
     text-align: center;
 }
 
+.our-portfolio-list{
+    list-style: none;
+    text-align: center;
+}
+
+
