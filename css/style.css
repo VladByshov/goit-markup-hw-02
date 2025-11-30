@@ -11,7 +11,7 @@ body {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1111;
+    line-height: 1.11;
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
@@ -88,23 +88,8 @@ header a:not(.logo):active{
 }
 
 .order {
-    /* Layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
-
-    /* Size & spacing */
-    width: 177px;
-    height: 58px;
-    padding-block: 16px;
-    padding-inline: 32px;
-    border-radius: 4px;
-
     /* Visual */
     background: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
 
     /* Typography */
