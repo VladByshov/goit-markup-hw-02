@@ -8,36 +8,25 @@ body {
     background-color: #FFFFFF;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    color: #2e2f42;
-    text-align: center;
-    text-transform: capitalize;
-}
+/*h2 {*/
+/*    font-weight: 700;*/
+/*    font-size: 36px;*/
+/*    line-height: 1.11;*/
+/*    color: #2e2f42;*/
+/*    text-align: center;*/
+/*    text-transform: capitalize;*/
+/*}*/
 
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2e2f42;
-    text-align: center;
-}
+/*h3 {*/
+/*    font-weight: 500;*/
+/*    font-size: 20px;*/
+/*    line-height: 1.2;*/
+/*    color: #2e2f42;*/
+/*    text-align: center;*/
+/*}*/
 
 header{
     background-color: #FFFFFF;
-}
-
-header a:not(.logo):hover,
-header a:not(.logo):focus {
-    opacity: 0.8;
-    color: #404bbf;
-    transition: color 0.2s;
-}
-
-header a:not(.logo):active{
-    color: #4D5AE5;
 }
 
 .logo {
@@ -60,33 +49,75 @@ header a:not(.logo):active{
     font-weight: 500;
 }
 
-.nav-list a {
+/*.nav-list a {*/
+/*    text-decoration:  none;*/
+/*    color:  #2e2f42;*/
+/*}*/
+
+.list-item a{
     text-decoration:  none;
     color:  #2e2f42;
 }
 
-.contacts-header{
+.list-item a:hover,
+.list-item a:focus{
+    color: #404bbf;
+}
+
+.address ul{
     font-style: normal;
     list-style: none;
     font-size: 16px;
 }
-.contacts-header a{
+
+.list-address a{
     text-decoration: none;
-    color: inherit;
+    color: #434455;
 }
+
+.list-address a:hover,
+.list-address a:focus{
+    color: #404bbf;
+}
+
+/*.contacts-header{*/
+/*    font-style: normal;*/
+/*    list-style: none;*/
+/*    font-size: 16px;*/
+/*}*/
+/*.contacts-header a{*/
+/*    text-decoration: none;*/
+/*    color: inherit;*/
+/*}*/
 
 .solutions-for-business{
     background-color: #2e2f42;
 }
 
-.title-solutions{
+.section-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.11;
     text-align: center;
     color: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
+.section-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.section-list-item{
+    font-size: 16px;
+}
+
+.benefits-item{
+    background-color: #FFFFFF;
+}
 .order {
     /* Visual */
     background: #4d5ae5;
