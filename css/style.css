@@ -64,8 +64,11 @@ header{
     color: #404bbf;
 }
 
-.address ul{
+.address {
     font-style: normal;
+}
+
+.address ul{
     list-style: none;
     font-size: 16px;
 }
@@ -90,17 +93,26 @@ header{
 /*    color: inherit;*/
 /*}*/
 
+.title-solutions{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 .solutions-for-business{
     background-color: #2e2f42;
 }
 
 .section-title{
     font-weight: 700;
-    font-size: 56px;
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    color: #FFFFFF;
+    color: #2e2f42;
+    background-color: #FFFFFF;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .section-list-title{
