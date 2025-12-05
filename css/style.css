@@ -8,23 +8,6 @@ body {
     background-color: #FFFFFF;
 }
 
-/*h2 {*/
-/*    font-weight: 700;*/
-/*    font-size: 36px;*/
-/*    line-height: 1.11;*/
-/*    color: #2e2f42;*/
-/*    text-align: center;*/
-/*    text-transform: capitalize;*/
-/*}*/
-
-/*h3 {*/
-/*    font-weight: 500;*/
-/*    font-size: 20px;*/
-/*    line-height: 1.2;*/
-/*    color: #2e2f42;*/
-/*    text-align: center;*/
-/*}*/
-
 header{
     background-color: #FFFFFF;
 }
@@ -48,11 +31,6 @@ header{
     list-style: none;
     font-weight: 500;
 }
-
-/*.nav-list a {*/
-/*    text-decoration:  none;*/
-/*    color:  #2e2f42;*/
-/*}*/
 
 .list-item a{
     text-decoration:  none;
@@ -82,16 +60,6 @@ header{
 .list-address a:focus{
     color: #404bbf;
 }
-
-/*.contacts-header{*/
-/*    font-style: normal;*/
-/*    list-style: none;*/
-/*    font-size: 16px;*/
-/*}*/
-/*.contacts-header a{*/
-/*    text-decoration: none;*/
-/*    color: inherit;*/
-/*}*/
 
 .title-solutions{
     font-size: 56px;
@@ -130,6 +98,11 @@ header{
 .benefits-item{
     background-color: #FFFFFF;
 }
+
+.our-team-item{
+    background-color: #FFFFFF;
+}
+
 .order {
     /* Visual */
     background: #4d5ae5;
