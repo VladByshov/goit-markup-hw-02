@@ -48,7 +48,6 @@ header{
 
 .address ul{
     list-style: none;
-    font-size: 16px;
 }
 
 .list-address a{
@@ -89,10 +88,6 @@ header{
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
-}
-
-.section-list-item{
-    font-size: 16px;
 }
 
 .benefits-item{
