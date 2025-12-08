@@ -104,8 +104,8 @@ header{
     color: #FFFFFF;
 }
 
-.order:hover,
-.order:focus {
+.order-service:hover,
+.order-service:focus {
     background-color: #404BBF;
 }
 
